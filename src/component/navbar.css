@@ -1,0 +1,27 @@
+.NavbarDiv{
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    height: 4rem;
+    background-color: beige;
+    
+}
+.NavbarDiv nav{
+
+    
+     width: 50%;
+     display: flex;
+     height: auto;
+     padding: 1rem;
+     justify-content: space-around;
+}
+.link{
+
+
+    border: none;
+    color: rebeccapurple;
+    font-style: normal;
+    text-decoration: none;
+}

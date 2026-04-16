@@ -1,0 +1,41 @@
+.mainCardDiv{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    
+    margin: auto;
+    height: auto;
+
+}
+
+.card{
+
+    display: flex;
+    height: 15rem;
+    width: 15rem;
+    border: 1px solid rgb(243, 203, 128);
+    margin: auto;
+    margin-top: 1rem;
+    padding: .5rem;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+
+}
+.card ul {
+
+ list-style-type: none;
+  padding: 0;            
+  margin: 0;
+
+}
+
+.card ul li span{
+
+    font-weight: bold;
+    color: lightcoral;
+}
+.card ul li {
+
+
+}
