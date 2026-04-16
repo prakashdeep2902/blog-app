@@ -8,6 +8,7 @@ import Commnet from "./pages/Commnet";
 import Photos from "./pages/Photos";
 import Post from "./pages/Post";
 
+import Dynamic from "./pages/Dynamic";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
         <Route path="/comments" element={<Commnet />} />
         <Route path="/photos" element={<Photos />} />
         <Route path="/posts" element={<Post />} />
+        <Route path="/dynamic/:id" element={<Dynamic />} />
       </Routes>
     </>
   );
